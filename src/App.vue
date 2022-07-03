@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <router-view/>
+    <div class="lala">lala</div>
   </div>
 </template>
 
@@ -11,4 +12,9 @@ export default {
 </script>
 
 <style lang="less">
+.lala {
+  width: 75px;
+  height: 10px;
+  background-color: pink;
+}
 </style>
